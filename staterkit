@@ -42,3 +42,26 @@ sui client new-address ed25519
 │ keyScheme      │ ed25519                                                                   │
 │ recoveryPhrase │ dry like spray scare damp roof stage neither afford february young bubble │
 ╰────────────────┴───────────────────────────────────────────────────────────────────────────╯
+
+///to know how address are created till now 
+sui client addresses
+╭──────────────────┬────────────────────────────────────────────────────────────────────┬────────────────╮
+│ alias            │ address                                                            │ active address │
+├──────────────────┼────────────────────────────────────────────────────────────────────┼────────────────┤
+│ jovial-amethyst  │ 0x77b1ae05672c34320b5fc1a23edf966f7d9b9c5e799265aa7590836f001c852c │ *              │
+│ objective-zircon │ 0xb8e1af8c6957c730cf00b2f5be5c417d4896df59345fa0e0ff1a4de449b15bf8 │                │
+│ peaceful-epidote │ 0xebbdbec44d52a02a22ff18853dba7d90f781e94d7fafab3b7ac3dbc89b930f01 │                │
+╰──────────────────┴────────────────────────────────────────────────────────────────────┴────────────────╯
+
+* indicates the active address 
+
+//to know the active address
+sui client active-address
+0x77b1ae05672c34320b5fc1a23edf966f7d9b9c5e799265aa7590836f001c852c
+
+
+//to switch or change the active address
+sui client switch --address 0xb8e1af8c6957c730cf00b2f5be5c417d4896df59345fa0e0ff1a4de449b15bf8
+
+//in cli
+Active address switched to 0xb8e1af8c6957c730cf00b2f5be5c417d4896df59345fa0e0ff1a4de449b15bf8
