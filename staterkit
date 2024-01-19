@@ -80,7 +80,7 @@ Usage: sui client call --package <PACKAGE> --module <MODULE> --function <FUNCTIO
 sui client publish --gas-budget 100000000 
 
 
-//we need to mention the type args 
+//when dealing with the generic functions we need to pass that type using the --type-args like below , for normal functions with out generic can be called directly
 
  sui client call --package 0x101dae433e2b3090ce943f00041057532a433a70e88c193fac9e0f8ad8bd953d --module book_my_ticket_coin --function mint_and_transfer --type-args 0x101dae433e2b3090ce943f00041057532a433a70e88c193fac9e0f8ad8bd953d(packageId)::book_my_ticket_coin::BOOK_MY_TICKET_COIN --args 
 0x82b735ee14cbba558c4d01f3b13734c22ed47070a75d24aac32689ff74e3029b 2333333333333333 0x0b6ffe868b9b236cbf29316a277ff891e368facf8975e146c950b137f0268adc --gas-budget 1000000000
