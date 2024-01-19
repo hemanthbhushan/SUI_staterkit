@@ -65,3 +65,11 @@ sui client switch --address 0xb8e1af8c6957c730cf00b2f5be5c417d4896df59345fa0e0ff
 
 //in cli
 Active address switched to 0xb8e1af8c6957c730cf00b2f5be5c417d4896df59345fa0e0ff1a4de449b15bf8
+
+
+//to call the function that is published 
+
+sui client call --package 0x0e93e988b734751bf57be0ed5fd419fed01eda4fc320637c3e89c65f82c85f78 --module music_coin --function mint_token --args 0x7622369a7f85565664aa0189cb03c4d4fdb484ad6c0f3a1915be9a7767d48108 23333333333 0x0b6ffe868b9b236cbf29316a277ff891e368facf8975e146c950b137f0268adc --gas-budget 10000000000
+
+
+Usage: sui client call --package <PACKAGE> --module <MODULE> --function <FUNCTION> --args <ARGS> --gas-budget <GAS_BUDGET> 
