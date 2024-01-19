@@ -73,3 +73,8 @@ sui client call --package 0x0e93e988b734751bf57be0ed5fd419fed01eda4fc320637c3e89
 
 
 Usage: sui client call --package <PACKAGE> --module <MODULE> --function <FUNCTION> --args <ARGS> --gas-budget <GAS_BUDGET> 
+
+
+//to publish the module
+
+sui client publish --gas-budget 100000000 
