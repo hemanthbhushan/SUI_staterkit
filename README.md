@@ -8,6 +8,13 @@ This Readme provides information on various SUI CLI commands for managing addres
 
 Use the following command to generate a new address and keypair:
 
+sui client new-address --help
+Generate new address and keypair with keypair scheme flag {ed25519 | secp256k1 | secp256r1} with optional derivation path, default to m/44'/784'/0'/0'/0' for
+ed25519 or m/54'/784'/0'/0/0 for secp256k1 or m/74'/784'/0'/0/0 for secp256r1. Word length can be { word12 | word15 | word18 | word21 | word24} default to word12
+if not specified
+
+Usage: sui client new-address [OPTIONS] <KEY_SCHEME> [ALIAS] [WORD_LENGTH] [DERIVATION_PATH]
+
 ```bash
 sui client new-address --help
 ```
@@ -16,6 +23,14 @@ Example:
 ```bash
 sui client new-address ed25519
 ```
+╭────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Created new keypair and saved it to keystore.                                              │
+├────────────────┬───────────────────────────────────────────────────────────────────────────┤
+│ alias          │ peaceful-epidote                                                          │
+│ address        │ 0xebbdbec44d52a02a22ff18853dba7d90f781e94d7fafab3b7ac3dbc89b930f01        │
+│ keyScheme      │ ed25519                                                                   │
+│ recoveryPhrase │ dry like spray scare damp roof stage neither afford february young bubble │
+╰────────────────┴───────────────────────────────────────────────────────────────────────────╯
 
 ### View Addresses
 
