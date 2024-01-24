@@ -6,6 +6,8 @@ Here are some additional resources that I found helpful in getting started with 
 1. [Introduction to Sui Blockchain](https://www.youtube.com/watch?v=LbAzTzlj3ac)
 2. [Sui vs Aptos - A Comparison](https://www.youtube.com/watch?v=X2ogC_uOdZ8&t=135s)
 3. [Sui Move Basics - Code in Move](https://www.youtube.com/watch?v=jM5VBxoKPyM&t=1475s)
+4. [Unveiling the SUI Blockchain: Pioneering Features and Unique Advantages](https://www.youtube.com/watch?v=jM5VBxoKPyM&t=1478s)
+5. [Evan Cheng Talks Sui Blockchain @ Web Summit 2022](https://youtu.be/lWg66640bYU?si=s1GFNRBqUszOW-Ej)
 
 ### Medium Articles
 1. [CoinEx: Sui Move-Based Public Chains - Sui vs Aptos](https://medium.com/@coinex/coinex-move-based-public-chains-sui-vs-aptos-a0c1ebda44bc)
@@ -28,7 +30,7 @@ Here are some additional resources that I found helpful in getting started with 
 ### Cookbook
 - [Sui Blockchain Cookbook](https://suibase.io/cookbook/)
 
-Feel free to explore these resources to deepen your understanding of Sui blockchain. They cover a range of topics from introductory videos and articles to more advanced technical documentation and code repositories.
+Feel free to explore these resources to deepen your understanding of Sui blockchain. The "Evan Cheng Talks Sui Blockchain @ Web Summit 2022" video provides insights from Evan Cheng, contributing to the comprehensive knowledge about Sui blockchain.
 
 # SUI Command Line Interface (CLI) Readme
 
