@@ -11,6 +11,13 @@ To create a new folder structure named `sui_wallet`, use the following command:
 ```bash
 sui move new sui_wallet
 ```
+### Build the Code
+
+To build the code or check for compilation errors, use the following command:
+
+```bash
+sui move build
+```
 
 ### Create a New Address
 
