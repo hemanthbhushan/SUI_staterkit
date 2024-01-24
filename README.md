@@ -25,7 +25,7 @@ Here are some additional resources that I found helpful in getting started with 
 
 ### GitHub Repositories
 1. [Sui Move Intro Course](https://github.com/sui-foundation/sui-move-intro-course?tab=readme-ov-file)
-2. [Sui Lending Protocol](https://github.com/scallop-io/sui-lending-protocol/tree/main)
+2. [Mysten labs](https://github.com/MystenLabs/sui)
 
 ### Cookbook
 - [Sui Blockchain Cookbook](https://suibase.io/cookbook/)
