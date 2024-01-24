@@ -4,6 +4,14 @@
 
 This Readme provides information on various SUI CLI commands for managing addresses, interacting with the blockchain, and handling transactions.
 
+### Create a New Folder Structure
+
+To create a new folder structure named `sui_wallet`, use the following command:
+
+```bash
+sui move new sui_wallet
+```
+
 ### Create a New Address
 
 Use the following command to generate a new address and keypair:
