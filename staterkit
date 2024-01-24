@@ -98,3 +98,6 @@ curl --location --request POST 'https://faucet.devnet.sui.io/gas' \
         "recipient": "0xb8e1af8c6957c730cf00b2f5be5c417d4896df59345fa0e0ff1a4de449b15bf8"
     }
 }'
+
+//to know amount of gas (sui tokens)
+sui client gas
