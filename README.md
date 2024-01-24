@@ -23,15 +23,6 @@ Example:
 ```bash
 sui client new-address ed25519
 ```
-╭────────────────────────────────────────────────────────────────────────────────────────────╮
-│ Created new keypair and saved it to keystore.                                              │
-├────────────────┬───────────────────────────────────────────────────────────────────────────┤
-│ alias          │ peaceful-epidote                                                          │
-│ address        │ 0xebbdbec44d52a02a22ff18853dba7d90f781e94d7fafab3b7ac3dbc89b930f01        │
-│ keyScheme      │ ed25519                                                                   │
-│ recoveryPhrase │ dry like spray scare damp roof stage neither afford february young bubble │
-╰────────────────┴───────────────────────────────────────────────────────────────────────────╯
-
 ### View Addresses
 
 To see all addresses and identify the active one, use:
