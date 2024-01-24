@@ -1,3 +1,35 @@
+## Additional Resources
+
+Here are some additional resources that I found helpful in getting started with Sui blockchain:
+
+### Videos
+1. [Introduction to Sui Blockchain](https://www.youtube.com/watch?v=LbAzTzlj3ac)
+2. [Sui vs Aptos - A Comparison](https://www.youtube.com/watch?v=X2ogC_uOdZ8&t=135s)
+3. [Sui Move Basics - Code in Move](https://www.youtube.com/watch?v=jM5VBxoKPyM&t=1475s)
+
+### Medium Articles
+1. [CoinEx: Sui Move-Based Public Chains - Sui vs Aptos](https://medium.com/@coinex/coinex-move-based-public-chains-sui-vs-aptos-a0c1ebda44bc)
+2. [Code in Move 4: Sui Move Basics](https://medium.com/@BlockRunner/code-in-move-4-sui-move-basics-76c21cc0df1c)
+3. [Sui Programmable Transaction Block (PTBs) - Learning Move 0x03](https://noncegeek.medium.com/sui-programmable-transaction-block-ptbs-learning-move-0x03-6b1abef44dea)
+4. [I Have Been Using Sui Move for Sometime - In Love With the Language](https://abhi3700.medium.com/i-have-been-using-sui-move-for-sometime-i-am-already-in-love-with-the-language-especially-looking-253899ad1473)
+
+### Blog Posts
+1. [Sui Linter & Compile Warnings Update](https://blog.sui.io/linter-compile-warnings-update/)
+2. [Sui Series 3 - By Sui, For Sui, Of Sui - Sui Move](https://medium.com/a41-ventures/sui-series-3-by-sui-for-sui-of-sui-sui-move-575518b789e6)
+
+### Documentation
+1. [Sui Documentation](https://docs.sui.io/)
+2. [Sui CLI Reference](https://docs.sui.io/references/cli)
+
+### GitHub Repositories
+1. [Sui Move Intro Course](https://github.com/sui-foundation/sui-move-intro-course?tab=readme-ov-file)
+2. [Sui Lending Protocol](https://github.com/scallop-io/sui-lending-protocol/tree/main)
+
+### Cookbook
+- [Sui Blockchain Cookbook](https://suibase.io/cookbook/)
+
+Feel free to explore these resources to deepen your understanding of Sui blockchain. They cover a range of topics from introductory videos and articles to more advanced technical documentation and code repositories.
+
 # SUI Command Line Interface (CLI) Readme
 
 ## Overview
