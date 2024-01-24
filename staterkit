@@ -101,3 +101,16 @@ curl --location --request POST 'https://faucet.devnet.sui.io/gas' \
 
 //to know amount of gas (sui tokens)
 sui client gas
+
+
+
+//
+
+
+//below are the cli command for the vector inputs
+
+ public entry fun add_ticket_types(_: &OwnerCap, platform_info: &mut BmtPlatformDetails, ticket_type: vector<String>, ticket_price: vector<u64>, _: &mut TxContext) {
+
+the command for the above inputs 
+sui client call --package 0x157bef934e5bea375688fb40282d895b1747f994f35d7d939462cee73b8a5415 --module BookMyTicket --function add_ticket_types 
+--args 0xdd70fb36f066239813eaaf45ea049d9945f9633a009eda840c0d205bebf9bc6b 0x601a2f8e690f811beae258bd4a3783372511eb8ab641b9bfef24f70d76de9f0d "["hemaeenth","fff","ccc"]" "[1,2,2]" --gas-budget 1000000000 --json
