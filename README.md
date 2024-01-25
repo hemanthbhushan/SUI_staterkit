@@ -32,6 +32,27 @@ Here are some additional resources that I found helpful in getting started with 
 
 Feel free to explore these resources to deepen your understanding of Sui blockchain. The "Evan Cheng Talks Sui Blockchain @ Web Summit 2022" video provides insights from Evan Cheng, contributing to the comprehensive knowledge about Sui blockchain.
 
+# Book My Ticket Sui Move
+[Book My Ticket](https://github.com/hemanthbhushan/book_my_ticket_sui_move.git)
+
+This repository contains the smart contracts for a decentralized ticket booking platform implemented using Sui Blockchain's Move language. The project aims to provide a secure and transparent ticketing system with features such as buying tickets, claiming profits, adding ticket types, blocking/unblocking users, and more.
+
+## Smart Contracts
+
+### TicketProject Module
+
+#### Overview
+
+The `TicketProject::BookMyTicket` module defines a smart contract for managing the decentralized ticket booking platform. It includes functions for initializing the platform, buying tickets, claiming profits, adding/removing ticket types, blocking/unblocking users, changing ownership, and more.
+
+### TicketProjectToken Module
+
+#### Overview
+
+The `TicketProjectToken::ticket_token` module defines a custom token called `TICKET_TOKEN`. This token is designed for handling transactions related to ticket purchases in the Ticket Project.
+
+
+
 # SUI Command Line Interface (CLI) Readme
 
 ## Overview
