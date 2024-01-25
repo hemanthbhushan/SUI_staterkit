@@ -208,10 +208,11 @@ To resolve this issue, make sure that you have the correct version of the Sui Fr
 ```toml
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.16.2" }
 ```
+OR
 ```toml
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
 ```
 
 This will ensure that you are using version `mainnet-v1.16.2` of the Sui Framework, which should address the object construction issue.
-
+Find the version types here
 [latest versions are found here](https://github.com/MystenLabs/sui/releases)
