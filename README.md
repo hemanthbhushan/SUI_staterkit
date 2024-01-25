@@ -189,3 +189,26 @@ sui client call --package 0x157bef934e5bea375688fb40282d895b1747f994f35d7d939462
 ## Note
 
 Make sure to replace placeholders such as `<PACKAGE>`, `<MODULE>`, `<FUNCTION>`, `<ARGS>`, `<GAS_BUDGET>`, `<NEW_ADDRESS>`, and `<RECIPIENT_ADDRESS>` with actual values when using the commands.
+
+
+# Sui Framework - Troubleshooting Guide
+
+## Error: Sui E01001 - Invalid Object Construction
+
+If you encounter the error `Sui E01001: invalid object construction` with the specific context pointing to an invalid object creation in the `deny_list.move` file, follow the steps below to resolve the issue.
+
+### Problem Description
+
+The error suggests that an object is being constructed without a newly created UID, and the UID must come directly from `sui::object::new`. For tests, it can come from `sui::test_scenario::new_object`. The error message provides details about the location of the issue in the code.
+
+### Solution
+
+To resolve this issue, make sure that you have the correct version of the Sui Framework in your project dependencies. Add the following line to your project's dependency list in the `Cargo.toml` file:
+
+```toml
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.16.2" }
+```
+
+This will ensure that you are using version `mainnet-v1.16.2` of the Sui Framework, which should address the object construction issue.
+
+[latest versions are found here](https://github.com/MystenLabs/sui/releases)
