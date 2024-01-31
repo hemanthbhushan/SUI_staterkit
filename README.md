@@ -22,6 +22,7 @@ Here are some additional resources that I found helpful in getting started with 
 ### Documentation
 1. [Sui Documentation](https://docs.sui.io/)
 2. [Sui CLI Reference](https://docs.sui.io/references/cli)
+3. [Sui Tokenomics](https://docs.sui.io/concepts/tokenomics)
 
 ### GitHub Repositories
 1. [Sui Move Intro Course](https://github.com/sui-foundation/sui-move-intro-course?tab=readme-ov-file)
