@@ -217,3 +217,17 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 This will ensure that you are using version `mainnet-v1.16.2` of the Sui Framework, which should address the object construction issue.
 Find the version types here
 [latest versions are found here](https://github.com/MystenLabs/sui/releases)
+
+
+# Setting up Sui Client with Testnet RPC Endpoint
+
+To configure your Sui client with the Testnet RPC endpoint, follow the steps below:
+
+2. Run the following command to add the Testnet RPC endpoint to your Sui client configuration:
+
+```bash
+sui client new-env --alias test-net --rpc https://fullnode.testnet.sui.io:443
+
+```bash
+https://fullnode.<SUI-NETWORK-VERSION>.sui.io:443
+
