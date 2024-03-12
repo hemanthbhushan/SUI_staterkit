@@ -228,6 +228,6 @@ To configure your Sui client with the Testnet RPC endpoint, follow the steps bel
 ```bash
 sui client new-env --alias test-net --rpc https://fullnode.testnet.sui.io:443
 
-```bash
+```
 https://fullnode.<SUI-NETWORK-VERSION>.sui.io:443
 
