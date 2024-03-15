@@ -231,3 +231,30 @@ sui client new-env --alias test-net --rpc https://fullnode.testnet.sui.io:443
 ```
 test - htps://fullnode.<SUI-NETWORK-VERSION>.sui.io:443
 *https
+# Setting up .gitignore
+Before uploading your project to GitHub, it's important to ensure that certain files are ignored to prevent cluttering the repository with unnecessary files. To achieve this, we utilize a `.gitignore` file, which specifies patterns for files and directories that Git should ignore.
+
+In this project, we need to ignore the `build` directory and any files ending with `Move.lock`. To set up the `.gitignore` file accordingly, you can use the following contents:
+
+```
+build
+*Move.lock
+```
+
+However, if you've already committed files that should be ignored, fret not! You can rectify this situation using Git's `git rm` command combined with the `--cached` option. This command removes the files from the repository's index (staging area) without deleting them from your local file system. Here's how you can do it:
+
+1. Open your terminal or command prompt.
+2. Navigate to the root directory of your Git repository.
+3. Run the following commands:
+
+```bash
+git rm -r --cached .
+git add .
+git commit -m "Applied .gitignore to ignore build directory and *Move.lock files"
+git push 
+```
+These commands will remove the specified files from the repository while keeping them in your local file system. After committing these changes and pushing them to GitHub, the ignored files will no longer be tracked by Git.
+
+For more detailed information and alternative methods, you can refer to the following resource on Stack Overflow: [Ignore files that have already been committed to a Git repository](https://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository).
+
+
